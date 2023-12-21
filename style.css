@@ -1,0 +1,102 @@
+* {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Time;
+}
+
+header {
+    text-align: center;
+}
+
+header .title {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+header .years {
+    font-size: 25px;
+}
+
+.band-image,
+.freddie-image {
+    border: 1px solid #fff;
+    height: auto;
+    width: 80%;
+    opacity: 0.4;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-on-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.logo {
+    height: auto;
+    width: 50%;
+    opacity: 0.7;
+}
+
+.about,
+.performance-description {
+    text-indent: 10%;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.band-members,
+.magic-moments,
+.thanks {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+
+span {
+    display: inline;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    background-color: black;
+}
+
+.members {
+    width: 25%;
+    height: 400px;
+}
+
+.performance-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+img {
+    width: 750px;
+    height: auto;
+}
+
+.thanks {
+    font-style: italic;
+}
+
+#heart {
+    font-style: normal;
+    color: red;
+}
